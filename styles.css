@@ -28,6 +28,16 @@ body {
   color: #f9faf8;
 }
 
+.header ul {
+  list-style-type: none;
+}
+
+.header a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
 .info .title {
   color: #1f2937;
   font-size: 36px;
@@ -42,11 +52,16 @@ body {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
-  font-weight: 100;
 }
 
 .action {
   background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.action button {
+  background-color: #3882f6;
+  color: #f9faf8;
 }
 
 .footer {

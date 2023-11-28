@@ -7,6 +7,25 @@ body {
   background-color: #1f2937;
 }
 
+.header .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 16px;
+}
+
+.header a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
 .header .logo {
   color: #f9faf8;
   font-size: 24px;
@@ -26,16 +45,6 @@ body {
 .header button {
   background-color: #3882f6;
   color: #f9faf8;
-}
-
-.header ul {
-  list-style-type: none;
-}
-
-.header a {
-  color: #e5e7eb;
-  font-size: 18px;
-  text-decoration: none;
 }
 
 .info .title {

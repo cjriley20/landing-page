@@ -3,50 +3,43 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* .header {
+header {
   background-color: #1f2937;
 }
 
-.header .top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header .logo {
+  color: #f9faf8;
+  font-size: 24px;
 }
 
-.header ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  gap: 16px;
-}
-
-.header a {
+header a {
   color: #e5e7eb;
   font-size: 18px;
   text-decoration: none;
 }
 
-.header .logo {
-  color: #f9faf8;
-  font-size: 24px;
-}
-
-.header .main {
+header h1 {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 800;
 }
 
-.header .sub {
+header p {
   color: #e5e7eb;
   font-size: 18px;
 }
 
-.header button {
+header button {
   background-color: #3882f6;
   color: #f9faf8;
 }
 
+header .image {
+  color: #e5e7eb;
+  background-color: #999999;
+}
+
+/* 
 .info .title {
   color: #1f2937;
   font-size: 36px;

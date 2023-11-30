@@ -39,8 +39,7 @@ header .image {
   background-color: #999999;
 }
 
-/* 
-.info .title {
+.info h2 {
   color: #1f2937;
   font-size: 36px;
   font-weight: 800;
@@ -66,7 +65,7 @@ header .image {
   color: #f9faf8;
 }
 
-.footer {
+footer {
   background-color: #1f2937;
   color: #f9faf8;
-} */
+}

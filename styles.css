@@ -42,7 +42,8 @@ header .hero .text {
 }
 
 header .hero {
-  display:flex;
+  display: flex;
+  justify-content: space-between;
   gap: 16px;
 }
 

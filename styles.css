@@ -12,7 +12,7 @@ header {
   gap: 50px;
 }
 
-header .links {
+header .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +34,7 @@ header a {
   text-decoration: none;
 }
 
-header .hero .title {
+header .hero .text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -70,6 +70,35 @@ header .image {
   background-color: #999999;
   width: 400px;
   height: 200px;
+  flex-shrink: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 100px 100px;
+  gap: 64px;
+}
+
+.info .cards {
+  display: flex;
+}
+
+.info .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.info .card .image {
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
 }
 
 .info h2 {

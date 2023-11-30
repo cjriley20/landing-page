@@ -60,9 +60,10 @@ header p {
 header button {
   background-color: #3882f6;
   color: #f9faf8;
-  padding: 8px 24px;
+  padding: 6px 24px;
   border-radius: 8px;
   border: none;
+  font-size: 18px;
 }
 
 header .image {
@@ -131,11 +132,33 @@ header .image {
 .action {
   background-color: #3882f6;
   color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  padding: 50px 75px;
+  border-radius: 8px;
+}
+
+.action .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.action h2 {
+  font-size: 24px;
+}
+
+.action p {
+  font-size: 18px;
 }
 
 .action button {
   background-color: #3882f6;
   color: #f9faf8;
+  font-size: 18px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 6px 24px;
 }
 
 footer {

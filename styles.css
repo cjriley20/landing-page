@@ -1,10 +1,21 @@
-body {
+* {
   margin: 0;
+  padding: 0;
   font-family: Roboto, sans-serif;
 }
 
 header {
+  display: flex;
+  flex-direction: column;
   background-color: #1f2937;
+  padding: 16px 100px 50px;
+  gap: 50px;
+}
+
+header .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header .logo {
@@ -12,10 +23,26 @@ header .logo {
   font-size: 24px;
 }
 
+header nav {
+  display: flex;
+  gap: 16px;
+}
+
 header a {
   color: #e5e7eb;
   font-size: 18px;
   text-decoration: none;
+}
+
+header .hero .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+header .hero {
+  display:flex;
 }
 
 header h1 {
@@ -32,11 +59,16 @@ header p {
 header button {
   background-color: #3882f6;
   color: #f9faf8;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
 }
 
 header .image {
   color: #e5e7eb;
   background-color: #999999;
+  width: 400px;
+  height: 200px;
 }
 
 .info h2 {
